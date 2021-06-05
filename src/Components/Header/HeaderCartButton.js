@@ -2,9 +2,9 @@ import React from "react";
 import "./HeaderCartButton.css";
 import { Fragment } from "react";
 
-const Cart = () => {
+const Cart = (props) => {
   return (
-    <div className="cart">
+    <div className="cart" onClick={props.onShow}>
       <div className="cartLogo">
         <i class="fas fa-shopping-cart"></i>
       </div>
