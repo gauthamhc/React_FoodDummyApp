@@ -1,0 +1,40 @@
+.availableMeals {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+.meal {
+  width: 250px;
+  font-size: 2rem;
+}
+
+.meals {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 0.5rem;
+}
+
+.meal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mealquantity {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  border-radius: 15px;
+}
+.mealquantity input {
+  width: 50%;
+  padding: 1rem 0.5rem;
+  font-size: 2rem;
+}
+.mealquantity button {
+  padding: 1rem 0.5rem;
+}
+
+.mealsDescription {
+  font-size: 1.5rem;
+  padding: 0rem 0.5rem;
+}
